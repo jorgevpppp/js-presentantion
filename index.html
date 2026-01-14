@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentación JavaScript</title>
+</head>
+<body>
+
+<h1>Presentación JavaScript</h1>
+
+<h2>Vídeo con sonido</h2>
+<button id="mostrar">Mostrar vídeo</button>
+<button id="ocultar">Ocultar vídeo</button>
+
+<div id="video" style="display:none;">
+    <iframe
+        id="iframeVideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&mute=1"
+        title="YouTube video"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<h2>Formulario</h2>
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Introduce tu nombre">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
