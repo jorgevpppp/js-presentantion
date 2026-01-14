@@ -1,6 +1,4 @@
-/***********************************
- * DIFERENCIA ENTRE VAR Y LET
- ***********************************/
+
 var texto = "Variable declarada con var";
 let textoLet = "Variable declarada con let";
 
@@ -16,9 +14,7 @@ if (true) {
 console.log("Let fuera del bloque:", textoLet);
 
 
-/***********************************
- * MOSTRAR / OCULTAR VÍDEO CON SONIDO
- ***********************************/
+
 const btnMostrar = document.getElementById("mostrar");
 const btnOcultar = document.getElementById("ocultar");
 const contenedorVideo = document.getElementById("video");
